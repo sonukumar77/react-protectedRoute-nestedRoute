@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav-container {
+  box-shadow: 0 0 10px black;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+.menu-container div {
+  cursor: pointer;
+}
+
+.login-container {
+  margin-top: 2rem;
+}
+.login-container input,
+button {
+  margin-top: 1rem;
+}
