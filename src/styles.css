@@ -18,7 +18,11 @@
 }
 
 .login-container {
-  margin-top: 2rem;
+  width: 200px;
+  height: 200px;
+  margin: 4rem auto;
+  box-shadow: 0 0 10px black;
+  padding: 2rem;
 }
 .login-container input,
 button {
